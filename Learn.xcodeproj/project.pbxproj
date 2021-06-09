@@ -13,7 +13,6 @@
 		8DA1402E267055A2001569B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA1402D267055A2001569B1 /* ContentView.swift */; };
 		8DA140302670560C001569B1 /* StocksService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA1402F2670560C001569B1 /* StocksService.swift */; };
 		8DA140322670598E001569B1 /* StockListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA140312670598E001569B1 /* StockListViewModel.swift */; };
-		8DA1403426705B10001569B1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA1403326705B10001569B1 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		8DA1402D267055A2001569B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DA1402F2670560C001569B1 /* StocksService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksService.swift; sourceTree = "<group>"; };
 		8DA140312670598E001569B1 /* StockListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListViewModel.swift; sourceTree = "<group>"; };
-		8DA1403326705B10001569B1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 				8DA1402D267055A2001569B1 /* ContentView.swift */,
 				8DA1402F2670560C001569B1 /* StocksService.swift */,
 				8DA140312670598E001569B1 /* StockListViewModel.swift */,
-				8DA1403326705B10001569B1 /* Extensions.swift */,
 			);
 			path = Learn;
 			sourceTree = "<group>";
@@ -147,7 +144,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DA1403426705B10001569B1 /* Extensions.swift in Sources */,
 				8DA1402E267055A2001569B1 /* ContentView.swift in Sources */,
 				8D232CC5266DCBB800BDBB7E /* LearnApp.swift in Sources */,
 				8DA140302670560C001569B1 /* StocksService.swift in Sources */,
