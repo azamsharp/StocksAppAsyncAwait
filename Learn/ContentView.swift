@@ -16,7 +16,7 @@ struct ContentView: View {
             HStack {
                 Text(stock.name)
                 Spacer()
-                Text(stock.price.formatted(FloatingPointFormatStyle.Currency(code: "USD")))
+                Text(stock.price.formatted(.currency(code: "USD")))
             }
         }.task {
             stockListVM.getAllStocks()
