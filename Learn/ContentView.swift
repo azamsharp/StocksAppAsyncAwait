@@ -2,15 +2,27 @@
 //  ContentView.swift
 //  Learn
 //
-//  Created by Mohammad Azam on 6/6/21.
+//  Created by Mohammad Azam on 6/8/21.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject private var stockListVM = StockListViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        List(stockListVM.stocks, id: \.name) { stock in
+            HStack {
+                Text(stock.name)
+                Spacer()
+                Text(stock.price.formatted(FloatingPointFormatStyle.Currency(code: "USD")))
+            }
+        }.task {
+            stockListVM.getAllStocks()
+        }.refreshable {
+            stockListVM.getAllStocks()
+        }
     }
 }
 
